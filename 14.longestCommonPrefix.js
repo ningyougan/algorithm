@@ -19,8 +19,8 @@ function longitudinalComparison(strs) {
       if (strs[i][index] == undefined || strs[i][index] != currentCharacter)
         return commonPrefix;
     }
-    commonPrefix +=currentCharacter
-    index++
+    commonPrefix += currentCharacter;
+    index++;
   }
-  return commonPrefix
+  return commonPrefix;
 }
